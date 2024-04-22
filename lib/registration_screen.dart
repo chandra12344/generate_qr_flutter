@@ -140,7 +140,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       backgroundColor: Colors.pink.shade600, // Background Color
                     ),
                     child: const Text(
-                      'Register',
+                      'Generate QR',
                       style: TextStyle(
                           fontSize: 16.0, color: Colors.white),
                     ),
@@ -149,28 +149,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 const SizedBox(
                   height: 26.0,
                 ),
-
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const Text(
-                      'Old User? ',
-                      style: TextStyle(
-                          fontSize: 16.0, color: Colors.black),
-                    ),
-                    TextButton(
-                      onPressed: () {
-                        Get.back();
-                      },
-                      child: const Text(
-                        'Login',
-                        style: TextStyle(
-                            fontSize: 16.0, color: Colors.pink),
-                      ),
-                    )
-                  ],
-                )
               ],
             ),
           ),
